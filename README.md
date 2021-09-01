@@ -33,3 +33,20 @@ command: docker info –check  most config values of engine
 Container VS Virtual Machine: Containers are just processes. Limited to what resources they can access (file paths, network devices, running processes). Exit when process stops
 
 Image vs. Container:   An Image is the application we want to run. A Container is an instance of that image running as a process We can have many containers running off the same image. Docker's default image "registry" is called Docker Hub (hub.docker.com) 
+
+I have have cloned the dockerfile from my github 
+santosh@santosh-VB:~/demo-2048/code/P21CS013/dockerfile$ ll
+total 16
+drwxrwxr-x 2 santosh santosh 4096 Sep  1 09:09 ./
+drwxrwxr-x 4 santosh santosh 4096 Sep  1 09:09 ../
+-rw-rw-r-- 1 santosh santosh  348 Sep  1 09:09 Dockerfile
+-rw-rw-r-- 1 santosh santosh  271 Sep  1 09:09 index.html
+
+git clone https://github.com/Santosh-P21CS013/P21CS013.git
+git pull
+
+BUILDING THE IMAGE-
+sudo docker image build -t ngixn-with-html .
+
+RUNNING THE CONTAINER-
+sudo docker container run -p 80:80 --rm ngixn-with-html
