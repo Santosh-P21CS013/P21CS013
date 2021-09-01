@@ -71,3 +71,7 @@ ngixn-with-html      latest    3a0f51ad6df5   43 minutes ago   133MB
 nginx                latest    dd34e67e3371   2 weeks ago      133MB
 
 >127.0.0.1 is showing my index.html of my application
+
+The application would display "You just successfully ran a container with a custom file copied into the image at build time!"
+
+P21CS013- Santosh Kumar
