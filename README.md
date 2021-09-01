@@ -53,15 +53,21 @@ git clone https://github.com/Santosh-P21CS013/P21CS013.git
 git pull
 
 BUILDING THE IMAGE-
+
 sudo docker image build -t ngixn-with-html .
 
 RUNNING THE CONTAINER-
+
 sudo docker container run -p 80:80 --rm ngixn-with-html
 
 santosh@santosh-VB:~/demo-2048/code/P21CS013/dockerfile$ sudo docker image ls
+
 [sudo] password for santosh: 
+
 REPOSITORY           TAG       IMAGE ID       CREATED          SIZE
+
 ngixn-with-html      latest    3a0f51ad6df5   43 minutes ago   133MB
+
 nginx                latest    dd34e67e3371   2 weeks ago      133MB
 
 >127.0.0.1 is showing my index.html of my application
