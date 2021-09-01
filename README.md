@@ -25,7 +25,7 @@ https://docs.docker.com/compose/install
 
 curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose 
 
-Install git- sudo apt install git
+Install git:--> sudo apt install git
 
 command: docker version –check if verified cli can talk to engine 
 command: docker info –check  most config values of engine
