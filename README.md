@@ -43,6 +43,7 @@ drwxrwxr-x 4 santosh santosh 4096 Sep  1 09:09 ../
 -rw-rw-r-- 1 santosh santosh  271 Sep  1 09:09 index.html
 
 git clone https://github.com/Santosh-P21CS013/P21CS013.git
+
 git pull
 
 BUILDING THE IMAGE-
